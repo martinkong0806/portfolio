@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "postinstall": "npm run build",
-    "serve-heroku": "vite --host 0.0.0.0 --port 8000 preview",
+    "serve-heroku": "vite --host 0.0.0.0 --port $PORT preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
