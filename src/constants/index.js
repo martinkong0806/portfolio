@@ -19,8 +19,8 @@ import {
     givenergy,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    yelpcamp,
+    citybuilder,
     tripguide,
     threejs,
   } from "../assets";
@@ -160,46 +160,48 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Yelp Camp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users find available campgrounds anywhere in the world.",
       tags: [
         {
-          name: "react",
+          name: "ejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ExpressJS",
           color: "blue-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: yelpcamp,
+      source_code_link: "https://github.com/martinkong0806/yelpcamp",
+      webpage_link : "https://yelp-camp-2023-10-04-1a6afc62242a.herokuapp.com/"
     },
     {
-      name: "Job IT",
+      name: "City Builder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web based city builder game.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "ThreeJS",
           color: "pink-text-gradient",
         },
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },        
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: citybuilder,
+      source_code_link: "https://github.com/martinkong0806/city-builder-game",
     },
     {
       name: "Trip Guide",
