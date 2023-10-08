@@ -10,6 +10,8 @@ import {
     reactjs,
     redux,
     tailwind,
+    ejs,
+    expressJS,
     nodejs,
     mongodb,
     git,
@@ -166,19 +168,24 @@ import {
       tags: [
         {
           name: "ejs",
-          color: "pink-text-gradient",
+          color: "pink",
+          image: ejs
         },
         {
           name: "NodeJS",
-          color: "blue-text-gradient",
+          color: "blue",
+          image: nodejs
         },
         {
           name: "ExpressJS",
-          color: "blue-text-gradient",
+          color: "blue",
+          image: expressJS
+         
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
+          color: "green",
+          image: mongodb
         },
         
       ],
@@ -193,11 +200,13 @@ import {
       tags: [
         {
           name: "ThreeJS",
-          color: "pink-text-gradient",
+          color: "pink",
+          image: threejs
         },
         {
           name: "NodeJS",
-          color: "blue-text-gradient",
+          color: "blue",
+          image: nodejs
         },        
       ],
       image: citybuilder,
@@ -210,7 +219,7 @@ import {
       tags: [
         {
           name: "nextjs",
-          color: "blue-text-gradient",
+          color: "blue-chip-gradient",
         },
         {
           name: "supabase",

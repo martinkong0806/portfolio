@@ -10,6 +10,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import ejs from "./tech/ejs.png";
+import expressJS from "./tech/expressJS.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -43,6 +45,8 @@ export {
   close,
   css,
   docker,
+  ejs,
+  expressJS,
   figma,
   git,
   html,

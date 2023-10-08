@@ -3,7 +3,7 @@ import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, link, web } from "../assets";
+import { github, link, nodejs, web } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -68,12 +68,26 @@ const ProjectCard = ({
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+            <div 
+            key={`${name}-${tag.name}`}
+            className= {`${tag.color}-chip-gradient rounded-full`}>
+            <div className="flex bg-tertiary rounded-full p-1">
+               {tag.image? <img
+                src={tag.image}
+                alt={tag.name}
+                className='h-5 ml-1 p-0.5  bg-secondary rounded-full'
+              />: <div></div>}
+              
+  
+              <p
+              className={`text-[14px] mx-1`}
             >
-              #{tag.name}
+              {tag.name}
             </p>
+            </div>
+            </div>
+          
+            
           ))}
         </div>
       </Tilt>
